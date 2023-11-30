@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	padding: 0%;
+	margin: 0%;
+}
+
+nav {
+	background-color: #5a94dd;
+	height: 18px;
+}
+header {
+	background-color: #b3d6ff;
+	height: 80px;
+	text-align: center;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+section {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.orange {
+	background-color: #f5cf8e;
+	height: 100px;
+	width: 33.33%;
+}
+.violet {
+	background-color: #c9c6fb;
+	height: 100px;
+	width: 33.33%;
+}
+
+.rose {
+	background-color: #f09a9d;
+	height: 100px;
+	width: 33.3%;
+}
+
+.signup {
+	background-color: #d7e9ff;
+	height: 50px;
+	width: 100%;
+}
+
+.content {
+	background-color: #e9edf0;
+	height: 90px;
+}
+
+.content {
+	flex-wrap: wrap;
+	width: 100%;
+}
+@media only screen and (max-width: 1400px) {
+	.content {
+		order: -1;
+	}
+}

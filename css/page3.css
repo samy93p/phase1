@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#contenue {
+    margin: auto;
+    width: 1400px;
+    border: 1px solid black;
+}
+
+header{
+    background-color: #d2b48c;
+    color: whitesmoke;
+    height: 60px;
+}
+
+header p{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main, section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    width: 50%;
+}
+
+section div{
+    height: 250px;
+    width: 50%;
+    border: 1px solid white;
+    
+}
+.zone1{ 
+    background-color: green;
+}
+.zone2{
+    background-color: rgb(131, 189, 189);
+}
+.zone3{
+    background-color: aquamarine;
+}
+.zone4{
+    background-color: rgb(255, 127, 195);
+}

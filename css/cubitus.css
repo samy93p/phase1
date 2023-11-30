@@ -1,0 +1,53 @@
+::content
+.vert{
+    border-radius: 50px;
+    border: 1px;
+    background-position: left top;
+    background-color: green;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.bleu{
+    border-radius: 50px;
+    border: 1px;
+    background-position: left top;
+    background-color: blue;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.rose{
+    border-radius: 50px;
+    border: 1px;
+    background-position: left top;
+    background-color: rosybrown;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.rouge{
+    border-radius: 50px;
+    border: 1px;
+    background-position: left top;
+    background-color: red;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
